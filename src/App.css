@@ -1,0 +1,68 @@
+:root {
+    background-color: rgb(132, 221, 191);
+    font-family: roboto
+}
+#app {
+    background-color: white;
+    margin:0px auto 0px auto;
+    width: 500px;
+    border: solid 1px white;
+}
+#header{
+    margin-top: 20vh;
+    color: white;
+}
+#setting{
+    display:flex;
+    justify-content: space-around;
+    text-align: center;
+}
+#control1{
+    display:flex;
+    justify-content: space-around;
+}
+#control2{
+    display:flex;
+    justify-content: space-around;
+}
+#playcontrol{
+    display:flex;
+    justify-content: center;
+}
+#break-length{
+    margin: 0px 15px 0px 15px;
+}
+#session-length{
+    margin: 0px 15px 0px 15px;
+}
+
+@media screen and (max-width: 500px){
+    #app {
+        width: auto;
+    }
+    #setting {
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    #breakcard {
+        margin: 20px 0;
+    }
+    #sessioncard {
+        margin: 0 0 20px 0;
+    }
+    
+    #control1{
+        display:flex;
+        justify-content: center;
+    }
+    #control2{
+        display:flex;
+        justify-content: center;
+    }
+}
+@media screen and (max-height: 600px){
+    #header{
+        margin-top: 5vh;
+    }
+}
